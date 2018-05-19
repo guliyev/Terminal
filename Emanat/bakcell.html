@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="grid-container">
-		<button class="bakcelimage"><img src="img/btn.jpg" alt=""></button><input id="input" type="text"><button id="clir" onclick="clear()" class="clearNumber">Sil</button>
+		<button class="bakcelimage"><img src="img/logo.jpg" alt=""></button><input id="input" value="055" type="text"><button onclick="clearThis()" id="deletes" class="clearNumber">Sil</button>
   <button onclick="number(1)" class="grid-item">1</button>
   <button onclick="number(2)" class="grid-item">2</button>
   <button onclick="number(3)" class="grid-item">3</button>  
@@ -18,9 +18,11 @@
   <button onclick="number(8)" class="grid-item">8</button>
   <button onclick="number(9)" class="grid-item">9</button>
   <button onclick="number(0)" class="grid-item">0</button>  
-  <button class="back">Geri</button><button class="go">Ireli</button>
+  <button onclick="document.location.href='index.html'" class="back">Geri</button><button id="hidden" onclick="succesNum()" class="go">Ireli</button>
   
 </div>
 <script src="js/bakcell.js"></script>
 </body>
 </html>
+
+

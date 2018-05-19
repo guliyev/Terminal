@@ -1,10 +1,14 @@
+body{
+  background: rebeccapurple;
+}
 .grid-container {
   display: grid;
     grid-gap: 10px;
     grid-template-columns: 70px 70px 70px;
     padding: 10px;
     float: right;
-    margin-right: 50%;
+
+    margin-right: 43%;
     margin-top: 100px;
 
 }
@@ -23,11 +27,14 @@
     height: 50px;
 }
 .bakcelimage{
-	position: relative;
+	    position: relative;
     top: 0px;
-    right: 64%;
-    width: 150px;
-    height: 50px;
+    right: 93%;
+    background: none;
+    width: 221px;
+    height: 51px;
+    border: none;
+     pointer-events: none;
 }
 .bakcelimage img{
 	width: 100%;
@@ -40,11 +47,12 @@
     height: 50px;
 
 }
-.go{
+#hidden{
 	position: relative;
     top: 83px;
     left: 30%;
     width: 150px;
+    display: none;
     height: 50px;
 }
 .grid-item {
@@ -53,9 +61,12 @@
   padding: 20px;
   font-size: 30px;
   border-radius: 10px;
+  pointer-events: unset;
   text-align: center;
+  cursor: pointer;
 }
 .grid-item:nth-child(13){
 	       width: 230px;
     border-radius: 18px;
+        border-radius: 0px 0px 70px 70px;
 }
